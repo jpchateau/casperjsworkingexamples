@@ -1,0 +1,18 @@
+{
+  "name": "casperjsworkingexamples",
+  "version": "0.0.1",
+  "description": "CasperJS working examples",
+  "main": "index.js",
+  "scripts": {
+    "test-form": "node_modules/.bin/casperjs test form.js --includes=config.js",
+    "test-browsing": "node_modules/.bin/casperjs test browsing.js --includes=config.js"
+  },
+  "keywords": [
+    "form"
+  ],
+  "author": "jpchateau",
+  "license": "MIT",
+  "dependencies": {
+    "casperjs": "1.1.4"
+  }
+}
